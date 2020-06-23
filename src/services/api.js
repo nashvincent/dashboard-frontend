@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'http://196414905eb1.ngrok.io'
+const BASE_URL = 'https://196414905eb1.ngrok.io'
 
 const getInitialData = async () => {
   const response = await axios.get(`${BASE_URL}/initial`)
